@@ -57,7 +57,7 @@ p {
 }
 
 #relogio {
-	background-image: url(../imgs/juuj.jpg);
+	background-image: url(../images/gerenciamento.jpg);
 	height: 670px;
 }
 #relogio h1 { color: white; text-align: center;padding-top: 100px;float: center;font-size: 50px}
@@ -104,3 +104,11 @@ font-size: 25px}
  #redhot {height: 220px;width: 220px;background-image: url(../imgs/download.jpg);}
 #pomo {height: 200px;width: 200px;background-image: url(../imgs/p.png)}
 #estu {height: 200px;width: 200px;background-image: url(../imgs/est.png)}
+
+
+@media only screen and (max-device-width: 700px) {
+	h4 {
+		max-width: 100%;
+	}
+
+}
